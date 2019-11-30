@@ -10,13 +10,6 @@ sentry_sdk.init(
 
 app = Bottle()
 
-
-@app.route('/')
-def index():
-    # raise RuntimeError("There is an error!")
-    return
-
-
 @app.route('/success')
 def success():
     return
